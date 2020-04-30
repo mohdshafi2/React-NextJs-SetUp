@@ -2,6 +2,7 @@
   "homepage": "http://mohdshafi2.github.io/React-NextJs-SetUp",
   "name": "nextJS",
   "version": "0.1.0",
+  "main": "index.js",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
