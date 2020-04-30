@@ -1,15 +1,24 @@
 {
-  "name": "learn-starter",
+  "homepage": "http://mohdshafi2.github.io/React-NextJs-SetUp",
+  "name": "nextJS",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "icomoon-react": "^2.0.16",
     "next": "9.3.5",
+    "node-sass": "^4.14.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
